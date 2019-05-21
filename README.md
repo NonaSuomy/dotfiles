@@ -2,6 +2,8 @@
 
 Arch + i3WM Environment
 
+![](images/wakeupbabytheme.png)
+
 **Dependencies**
 
 ```
