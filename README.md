@@ -5,7 +5,7 @@ Arch + i3WM Environment
 **Dependencies**
 
 ```
-pacman -S compton conky rofi sakura zathura xdotool feh i3 vim gvim xournal onboard scrot powerline ttf-font-awesome ttf-dejavu zsh gnome-calculator sound-theme-freedesktop paplay xorg-xrandr xorg-xdpyinfo imagemagick bc
+pacman -S compton conky rofi sakura zathura xdotool feh i3-gaps vim gvim xournal onboard scrot powerline ttf-font-awesome ttf-dejavu zsh gnome-calculator sound-theme-freedesktop paplay xorg-xrandr xorg-xdpyinfo imagemagick bc neofetch
 ```
 
 **AUR**
