@@ -7,7 +7,7 @@ Arch + i3WM Environment
 **Dependencies**
 
 ```
-pacman -S compton conky rofi sakura zathura xdotool feh i3-gaps vim gvim xournal onboard scrot powerline ttf-font-awesome ttf-dejavu zsh gnome-calculator sound-theme-freedesktop paplay xorg-xrandr xorg-xdpyinfo imagemagick bc neofetch
+pacman -S compton conky rofi sakura zathura xdotool feh i3-gaps vim gvim xournal onboard scrot powerline ttf-font-awesome ttf-dejavu zsh gnome-calculator sound-theme-freedesktop  xorg-xrandr xorg-xdpyinfo imagemagick bc neofetch calcurse
 ```
 
 **AUR**
@@ -31,9 +31,19 @@ paplay /usr/share/sounds/freedesktop/stereo/audio-volume-change.oga
 **Setup Lock Screen**
 
 ```
-~/.config/i3/scripts/betterlockscreen -u ~/.config/i3/wallpapers/scene.jpg
+wget https://github.com/NonaSuomy/dotfiles/raw/master/.i3/wallpapers/wakeupbaby.jpg -P ~/.config/i3/wallpapers/
+~/.config/i3/scripts/betterlockscreen -u ~/.config/i3/wallpapers/wakeupbaby.jpg
 ```
 
-Test Lock Screen ```~/.config/i3/scripts/betterlockscreen -l blur```
+Test Lock Screen 
+
+```~/.config/i3/scripts/betterlockscreen -l blur```
+
+**VIM Plugins**
+
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+```
 
 
