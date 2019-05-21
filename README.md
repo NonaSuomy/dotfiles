@@ -7,13 +7,14 @@ Arch + i3WM Environment
 **Dependencies**
 
 ```
-pacman -S compton conky rofi sakura zathura xdotool feh i3-gaps vim gvim xournal onboard scrot powerline ttf-font-awesome ttf-dejavu zsh gnome-calculator sound-theme-freedesktop  xorg-xrandr xorg-xdpyinfo imagemagick bc neofetch calcurse
+pacman -S compton rofi sakura zathura xdotool feh i3-gaps vim gvim xournal onboard scrot powerline ttf-font-awesome ttf-dejavu zsh gnome-calculator sound-theme-freedesktop  xorg-xrandr xorg-xdpyinfo imagemagick bc neofetch calcurse
 ```
 
 **AUR**
 
 ```
 git clone https://aur.archlinux.org/polybar.git
+git clone https://aur.archlinux.org/conky-lua.git
 git clone https://aur.archlinux.org/google-chrome.git
 git clone https://aur.archlinux.org/ttf-dejavu-sans-mono-powerline-git.git
 git clone https://aur.archlinux.org/i3lock-color.git
